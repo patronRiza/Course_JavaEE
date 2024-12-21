@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16
+    env_file: varDB.env
+    ports:
+      - "5433:5432"
+
+  app:
+    image: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    ports:
+      - "8080:9999"
+    env_file: varAPP.env
+    command:
+      - java -jar app.jar
+
+volumes:
+  postgres_data:
