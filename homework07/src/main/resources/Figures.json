@@ -1,0 +1,74 @@
+{
+  "values": [
+    {
+      "figure": "circle",
+      "start_position_x": 10,
+      "start_position_y": 15,
+      "size_x": 30,
+      "size_y": 30
+    },
+    {
+      "figure": "rectangle",
+      "start_position_x": 20,
+      "start_position_y": 25,
+      "size_x": 50,
+      "size_y": 40
+    },
+    {
+      "figure": "triangle",
+      "start_position_x": 5,
+      "start_position_y": 10,
+      "size_x": 20,
+      "size_y": 30
+    },
+    {
+      "figure": "ellipse",
+      "start_position_x": 40,
+      "start_position_y": 35,
+      "size_x": 60,
+      "size_y": 50
+    },
+    {
+      "figure": "square",
+      "start_position_x": 15,
+      "start_position_y": 20,
+      "size_x": 25,
+      "size_y": 25
+    },
+    {
+      "figure": "polygon",
+      "start_position_x": 10,
+      "start_position_y": 5,
+      "size_x": 35,
+      "size_y": 45
+    },
+    {
+      "figure": "triangle",
+      "start_position_x": 5,
+      "start_position_y": 10,
+      "size_x": 20,
+      "size_y": 30
+    },
+    {
+      "figure": "star",
+      "start_position_x": 20,
+      "start_position_y": 30,
+      "size_x": 50,
+      "size_y": 50
+    },
+    {
+      "figure": "hexagon",
+      "start_position_x": 25,
+      "start_position_y": 15,
+      "size_x": 30,
+      "size_y": 35
+    },
+    {
+      "figure": "star",
+      "start_position_x": 20,
+      "start_position_y": 30,
+      "size_x": 50,
+      "size_y": 50
+    }
+  ]
+}
