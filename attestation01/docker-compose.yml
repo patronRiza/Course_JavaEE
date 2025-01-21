@@ -1,0 +1,6 @@
+services:
+  postgres:
+    image: postgres:16
+    env_file: varDB.env
+    ports:
+      - "5433:5432"
