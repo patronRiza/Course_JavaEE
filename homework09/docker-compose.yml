@@ -1,0 +1,6 @@
+services:
+  appsecond:
+    build:
+      context: .
+      dockerfile: Dockerfile2
+    command: ["java", "-jar", "app.jar"]
