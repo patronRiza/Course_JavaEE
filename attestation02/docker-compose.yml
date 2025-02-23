@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgredb
+    env_file: varDB.env
+    ports:
+      - "5433:5432"
+
+  app:
+    image: app
+    container_name: secondAtes
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    depends_on:
+      - postgres
+    ports:
+      - "8080:9999"
+    env_file: varAPP.env
+    command:
+      - java -jar app.jar
