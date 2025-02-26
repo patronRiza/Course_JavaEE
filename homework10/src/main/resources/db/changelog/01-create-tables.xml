@@ -1,0 +1,26 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd">
+
+    <changeSet id="1" author="patronRiza">
+        <createTable tableName="orders">
+            <column name="id" type="serial">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="article_of_product" type="varchar(255)">
+                <constraints unique="true" nullable="false"/>
+            </column>
+            <column name="count_of_product" type="integer">
+                <constraints nullable="true"/>
+            </column>
+            <column name="price" type="decimal">
+                <constraints nullable="false"/>
+            </column>
+            <column name="dateOfOrder" type="timestamp" defaultValueComputed="CURRENT_TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
