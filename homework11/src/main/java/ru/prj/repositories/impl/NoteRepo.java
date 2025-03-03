@@ -9,6 +9,8 @@ import ru.prj.repositories.INoteRepo;
 
 import java.util.List;
 
+import static ru.prj.configs.Constant.*;
+
 @Repository
 public class NoteRepo implements INoteRepo {
 
@@ -51,5 +53,9 @@ public class NoteRepo implements INoteRepo {
                 note.title(),
                 note.content()
         };
+    }
+
+    public static RowMapper<Note> getNoteRowMapper() {
+        return noteRowMapper;
     }
 }

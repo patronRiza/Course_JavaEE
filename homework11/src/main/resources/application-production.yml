@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   datasource:
-    url: jdbc:postgresql://postgres:5432/proddb
+    url: jdbc:postgresql://postgres:5432/prod_db
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver

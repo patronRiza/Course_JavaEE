@@ -2,7 +2,7 @@ services:
   postgres:
     image: postgres:16
     container_name: postgredb
-    env_file: varDB.env
+    env_file: varDB-prod.env
     ports:
       - "5433:5432"
     networks:
