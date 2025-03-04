@@ -1,6 +1,14 @@
 server:
   port: 8080
 
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: ""
+  endpoint:
+    health:
+      access: none
 spring:
   application:
     name: MyNotes

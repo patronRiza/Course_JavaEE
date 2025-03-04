@@ -2,6 +2,7 @@ logging:
   level:
     org.springframework.jdbc.core: debug
     liquibase: debug
+
 spring:
   h2:
     console:

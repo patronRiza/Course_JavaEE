@@ -6,6 +6,6 @@
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.8.xsd">
 
     <include file="db/changelog/01-create-table.xml"/>
-    <include file="db/changelog/02-insert-data.xml" context="debug,production"/>
+    <include file="db/changelog/02-insert-data.xml" context="debug"/>
 
 </databaseChangeLog>
