@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16
+    env_file: varDB.env
+    ports:
+      - "5433:5432"
+    networks:
+      - app-network
+  app:
+    image: homework10:1.0-SNAPSHOT
+    container_name: app10
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+    ports:
+      - "8080:8080"
+
+networks:
+  app-network:
+    driver: bridge
