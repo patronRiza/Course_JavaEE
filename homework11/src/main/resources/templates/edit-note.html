@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Редактирование записи</title>
+</head>
+<body>
+<h1>Редактирование записи</h1>
+<form th:action="@{/mvc/update/{id}(id=${note.id})}" method="post">
+    <label for="title">Название:</label>
+    <input type="text" id="title" name="title" th:value="${note.title}" required>
+    <br>
+    <label for="content">Содержание:</label>
+    <textarea id="content" name="content" th:text="${note.content}"></textarea>
+    <br>
+    <button type="submit">Сохранить</button>
+</form>
+<form th:action="@{/mvc/delete/{id}(id=${note.id})}" method="post">
+    <input type="hidden" name="_method" value="delete">
+    <button type="submit">Удалить запись</button>
+</form>
+<a th:href="@{/mvc/all}">Назад к списку</a>
+</body>
+</html>

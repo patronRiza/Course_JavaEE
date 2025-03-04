@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgredb
+    env_file: varDB-prod.env
+    ports:
+      - "5433:5432"
+    networks:
+      - app-network
+
+  app:
+    image: homework11:1.0-SNAPSHOT
+    container_name: app11
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+    environment:
+      - SPRING_PROFILES_ACTIVE=production
+    ports:
+      - "8080:8081"
+
+networks:
+  app-network:
+    driver: bridge

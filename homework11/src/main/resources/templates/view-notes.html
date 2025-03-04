@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Просмотр всех записей</title>
+</head>
+<body>
+<h1>Все записи</h1>
+<ul>
+    <li th:each="note : ${notes}">
+        <a th:href="@{/mvc/edit/{id}(id=${note.id})}" th:text="${note.title}"></a>
+        <p th:text= "${note.content}"></p>
+    </li>
+</ul>
+<a th:href="@{/mvc/create}">Новая заметка</a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Создание записи</title>
+</head>
+<body>
+<h1>Создать новую запись</h1>
+<form th:action="@{/mvc/create}" method="post">
+    <label for="title">Заголовок:</label>
+    <input type="text" id="title" name="title" required>
+    <br>
+    <label for="content">Содержание:</label>
+    <textarea id="content" name="content" required></textarea>
+    <br>
+    <button type="submit">Создать</button>
+</form>
+<a th:href="@{/mvc/all}">Назад к списку записей</a>
+</body>
+</html>
