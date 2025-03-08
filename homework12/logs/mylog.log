@@ -58,3 +58,12 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
 2025-03-08 22:04:59 INFO  [http-nio-8080-exec-1] ru.prj.StudentServlet - Student with ID -501445707849795810 has been subscribed to courses [Java]
 2025-03-08 22:07:59 INFO  [RMI TCP Connection(2)-127.0.0.1] ru.prj.StudentServlet - StudentServlet initialized
 2025-03-08 22:08:08 INFO  [http-nio-8080-exec-4] ru.prj.StudentServlet - Student not exist
+2025-03-08 22:15:39 INFO  [RMI TCP Connection(2)-127.0.0.1] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 22:16:32 INFO  [http-nio-8080-exec-8] ru.prj.StudentServlet - Student not exist
+2025-03-08 22:16:43 INFO  [http-nio-8080-exec-9] ru.prj.StudentServlet - Student with ID 4874201426504385377 has been created
+2025-03-08 22:17:15 INFO  [http-nio-8080-exec-1] ru.prj.StudentServlet - Student with ID 4874201426504385377 has been subscribed to courses [Java]
+2025-03-08 22:17:48 INFO  [http-nio-8080-exec-3] ru.prj.StudentServlet - For input string: ""
+2025-03-08 22:17:55 INFO  [http-nio-8080-exec-4] ru.prj.StudentServlet - Name cannot be empty
+2025-03-08 22:18:30 INFO  [http-nio-8080-exec-5] ru.prj.StudentServlet - Invalid email
+2025-03-08 22:20:09 INFO  [main] ru.prj.StudentServlet - Student with ID -2346917920200537513 has been created
+2025-03-08 22:20:09 INFO  [main] ru.prj.StudentServlet - Student with ID 4287254434846779541 has been subscribed to courses []

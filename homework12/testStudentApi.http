@@ -7,7 +7,7 @@ Content-Type: application/json
 
 {
   "fullName": "test",
-  "email": "test@mail,ru"
+  "email": "@mail.ru"
 }
 
 ### PUT subscribe student to courses
@@ -15,6 +15,6 @@ PUT http://localhost:8080/api/students
 Content-Type: application/json
 
 {
-  "id": "-501445707849795810",
+  "id": "4874201426504385377",
   "selectedCourses": ["Java"]
 }
