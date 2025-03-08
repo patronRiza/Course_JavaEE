@@ -1,0 +1,60 @@
+2025-03-08 19:20:01 INFO  [RMI TCP Connection(2)-127.0.0.1] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 19:20:10 INFO  [http-nio-8080-exec-5] ru.prj.StudentServlet - Student with ID 3782766018260817447 has been created
+2025-03-08 19:20:24 INFO  [http-nio-8080-exec-9] ru.prj.StudentServlet - Student with ID 3782766018260817447 has been subscribed to courses [Java]
+2025-03-08 19:22:50 INFO  [RMI TCP Connection(2)-127.0.0.1] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 19:22:59 INFO  [http-nio-8080-exec-3] ru.prj.StudentServlet - Student with ID 974066652481935733 has been created
+2025-03-08 19:23:04 INFO  [http-nio-8080-exec-6] ru.prj.StudentServlet - You have not subscribed to right course
+2025-03-08 19:23:08 INFO  [http-nio-8080-exec-8] ru.prj.StudentServlet - For input string: ""
+2025-03-08 19:23:21 INFO  [http-nio-8080-exec-1] ru.prj.StudentServlet - com.google.gson.stream.MalformedJsonException: Unexpected value at line 1 column 11 path $.
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+2025-03-08 19:23:26 INFO  [http-nio-8080-exec-2] ru.prj.StudentServlet - For input string: " "
+2025-03-08 20:02:23 INFO  [RMI TCP Connection(2)-127.0.0.1] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 20:02:31 INFO  [http-nio-8080-exec-6] ru.prj.StudentServlet - Student with ID 556877449026469863 has been created
+2025-03-08 20:02:33 INFO  [http-nio-8080-exec-7] ru.prj.StudentServlet - You have not subscribed to right course
+2025-03-08 20:02:41 INFO  [http-nio-8080-exec-9] ru.prj.StudentServlet - You have not subscribed to right course
+2025-03-08 20:02:47 INFO  [http-nio-8080-exec-2] ru.prj.StudentServlet - Student with ID 556877449026469863 has been subscribed to courses [Java]
+2025-03-08 20:11:53 INFO  [RMI TCP Connection(2)-127.0.0.1] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 20:12:02 INFO  [http-nio-8080-exec-4] ru.prj.StudentServlet - Student with ID 2497859190807534926 has been created
+2025-03-08 20:12:07 INFO  [http-nio-8080-exec-7] ru.prj.StudentServlet - Student not exist
+2025-03-08 20:12:10 INFO  [http-nio-8080-exec-8] ru.prj.StudentServlet - Student with ID 2497859190807534926 has been subscribed to courses [Java]
+2025-03-08 20:23:43 INFO  [main] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 21:00:43 INFO  [main] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 21:01:34 INFO  [main] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 21:19:57 INFO  [main] ru.prj.StudentServlet - Student with ID 7321838491717193339 has been created
+2025-03-08 21:25:24 INFO  [main] ru.prj.StudentServlet - For input string: "3.8161040061524337E18"
+2025-03-08 21:27:44 INFO  [main] ru.prj.StudentServlet - For input string: "1.0"
+2025-03-08 21:28:07 INFO  [main] ru.prj.StudentServlet - For input string: "1.0"
+2025-03-08 21:29:45 INFO  [main] ru.prj.StudentServlet - For input string: "-7.952015423339252E18"
+2025-03-08 21:30:34 INFO  [main] ru.prj.StudentServlet - For input string: "-2.765451406361432E17"
+2025-03-08 21:34:07 INFO  [main] ru.prj.StudentServlet - For input string: "1.6346124113399127E18"
+2025-03-08 21:36:06 INFO  [main] ru.prj.StudentServlet - For input string: "-7.244101462654318E18"
+2025-03-08 21:37:46 INFO  [main] ru.prj.StudentServlet - For input string: "1.0"
+2025-03-08 21:38:12 INFO  [main] ru.prj.StudentServlet - For input string: "1.0"
+2025-03-08 21:40:13 INFO  [main] ru.prj.StudentServlet - Student with ID -8731420197562961227 has been subscribed to courses []
+2025-03-08 21:40:36 INFO  [main] ru.prj.StudentServlet - Cannot invoke "ru.prj.models.Student.id()" because "student" is null
+2025-03-08 21:41:13 INFO  [main] ru.prj.StudentServlet - Cannot invoke "ru.prj.models.Student.id()" because "student" is null
+2025-03-08 21:42:43 INFO  [main] ru.prj.StudentServlet - For input string: "4.78343331194917E17"
+2025-03-08 21:45:22 INFO  [main] ru.prj.StudentServlet - For input string: "4.721962306357091E18"
+2025-03-08 21:51:47 INFO  [main] ru.prj.StudentServlet - Cannot invoke "ru.prj.models.Student.id()" because "student" is null
+2025-03-08 21:54:13 INFO  [main] ru.prj.StudentServlet - class java.lang.Double cannot be cast to class java.lang.Long (java.lang.Double and java.lang.Long are in module java.base of loader 'bootstrap')
+2025-03-08 21:54:41 INFO  [main] ru.prj.StudentServlet - class java.lang.Double cannot be cast to class java.lang.Long (java.lang.Double and java.lang.Long are in module java.base of loader 'bootstrap')
+2025-03-08 21:57:38 INFO  [main] ru.prj.StudentServlet - class java.lang.Double cannot be cast to class java.lang.Long (java.lang.Double and java.lang.Long are in module java.base of loader 'bootstrap')
+2025-03-08 21:58:38 INFO  [main] ru.prj.StudentServlet - class java.lang.Double cannot be cast to class java.lang.Long (java.lang.Double and java.lang.Long are in module java.base of loader 'bootstrap')
+2025-03-08 21:59:35 INFO  [main] ru.prj.StudentServlet - class java.lang.String cannot be cast to class java.lang.Long (java.lang.String and java.lang.Long are in module java.base of loader 'bootstrap')
+2025-03-08 21:59:56 INFO  [main] ru.prj.StudentServlet - class java.lang.String cannot be cast to class java.lang.Long (java.lang.String and java.lang.Long are in module java.base of loader 'bootstrap')
+2025-03-08 22:00:24 INFO  [main] ru.prj.StudentServlet - Student with ID 2113483684572220305 has been subscribed to courses []
+2025-03-08 22:01:03 INFO  [main] ru.prj.StudentServlet - Student with ID -4678325876964321895 has been subscribed to courses []
+2025-03-08 22:01:31 INFO  [main] ru.prj.StudentServlet - Student with ID 6789706005320535750 has been created
+2025-03-08 22:01:31 INFO  [main] ru.prj.StudentServlet - Student with ID 2945667467025945270 has been subscribed to courses []
+2025-03-08 22:02:48 INFO  [main] ru.prj.StudentServlet - Student with ID 1064053207834924793 has been created
+2025-03-08 22:02:48 INFO  [main] ru.prj.StudentServlet - Student with ID 3669597005475175710 has been subscribed to courses []
+2025-03-08 22:03:52 INFO  [main] ru.prj.StudentServlet - Student with ID -8710212025790015263 has been created
+2025-03-08 22:03:52 INFO  [main] ru.prj.StudentServlet - Student with ID 3075247814847975532 has been subscribed to courses []
+2025-03-08 22:04:12 INFO  [main] ru.prj.StudentServlet - Student with ID -944526652331495483 has been created
+2025-03-08 22:04:12 INFO  [main] ru.prj.StudentServlet - Student with ID -443902630191566602 has been subscribed to courses []
+2025-03-08 22:04:35 INFO  [RMI TCP Connection(2)-127.0.0.1] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 22:04:42 INFO  [http-nio-8080-exec-5] ru.prj.StudentServlet - Student with ID -501445707849795810 has been created
+2025-03-08 22:04:49 INFO  [http-nio-8080-exec-7] ru.prj.StudentServlet - Student not exist
+2025-03-08 22:04:59 INFO  [http-nio-8080-exec-1] ru.prj.StudentServlet - Student with ID -501445707849795810 has been subscribed to courses [Java]
+2025-03-08 22:07:59 INFO  [RMI TCP Connection(2)-127.0.0.1] ru.prj.StudentServlet - StudentServlet initialized
+2025-03-08 22:08:08 INFO  [http-nio-8080-exec-4] ru.prj.StudentServlet - Student not exist
