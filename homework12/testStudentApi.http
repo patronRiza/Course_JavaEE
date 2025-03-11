@@ -1,0 +1,20 @@
+### GET all students
+GET http://localhost:8080/api/students
+
+### POST create student
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "fullName": "test",
+  "email": "@mail.ru"
+}
+
+### PUT subscribe student to courses
+PUT http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "id": "4874201426504385377",
+  "selectedCourses": ["Java"]
+}
