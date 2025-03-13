@@ -1,4 +1,4 @@
-package ru.prj.validation;
+package ru.prj.utils;
 
 
 import ru.prj.exceptions.InvalidCreationStudentException;
