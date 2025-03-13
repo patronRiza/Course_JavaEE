@@ -84,28 +84,28 @@ public class StudentController {
     }
 
     @ExceptionHandler(StudentNotExistException.class)
-    public ResponseEntity<ErrorModel> handleEntryNotExistException(final StudentNotExistException e) {
+    public ResponseEntity<ErrorModel> handleStudentNotExistException(final StudentNotExistException e) {
         return ResponseEntity
                 .status(HttpStatus.NOT_FOUND)
                 .body(new ErrorModel(e.getMessage()));
     }
 
     @ExceptionHandler(InvalidCreationStudentException.class)
-    public ResponseEntity<ErrorModel> handleEntryNotExistException(final InvalidCreationStudentException e) {
+    public ResponseEntity<ErrorModel> handleInvalidCreationStudentException(final InvalidCreationStudentException e) {
         return ResponseEntity
                 .status(HttpStatus.NOT_FOUND)
                 .body(new ErrorModel(e.getMessage()));
     }
 
     @ExceptionHandler(InvalidSubscribeException.class)
-    public ResponseEntity<ErrorModel> handleEntryNotExistException(final InvalidSubscribeException e) {
+    public ResponseEntity<ErrorModel> handleInvalidSubscribeException(final InvalidSubscribeException e) {
         return ResponseEntity
                 .status(HttpStatus.NOT_FOUND)
                 .body(new ErrorModel(e.getMessage()));
     }
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorModel> handleEntryNotExistException(final Exception e) {
+    public ResponseEntity<ErrorModel> handleException(final Exception e) {
         return ResponseEntity
                 .status(HttpStatus.NOT_FOUND)
                 .body(new ErrorModel(e.getMessage()));
